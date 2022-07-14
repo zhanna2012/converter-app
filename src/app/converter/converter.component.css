@@ -1,0 +1,57 @@
+.converter {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  padding: 20px 30px;
+}
+.converter__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.converter__exchange {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.converter__exchange-input {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #FCD535;
+  border-radius: 2px;
+  padding: 5px;
+  outline: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+.converter__exchange-option {
+  font-family: 'Montserrat', sans-serif;
+  color: #181A20;
+}
+.converter__exchange-select {
+  width: 150px;
+  height: 40px;
+  border-radius: 2px;
+  padding: 5px;
+  outline: transparent;
+}
+@media (max-width: 640px) {
+  .converter {
+    width: 100%;
+  }
+
+}
+@media (max-width: 510px) {
+  .converter__exchange {
+    justify-content: center;
+  }
+  .converter__exchange-input {
+    margin-bottom: 10px;
+  }
+}

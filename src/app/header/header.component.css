@@ -1,0 +1,65 @@
+.header {
+  background-color: #181A20;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+}
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo-wrapper a {
+  color: #EAECEF;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__currency-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header__currency {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 3px;
+}
+.header__currency-title {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FCD535;
+  color: #181A20;
+  text-transform: uppercase;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.header__currency-value {
+  color: #FCD535;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+@media (max-width: 375px) {
+  .header__currency {
+    flex-direction: column;
+    width: 100px;
+  }
+}
